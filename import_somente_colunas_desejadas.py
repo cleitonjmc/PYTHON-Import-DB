@@ -16,7 +16,7 @@ engine = handleEngine()
 
 chunksize=100000
 
-for itemCSV in os.listdir('C:\\Dados\\01 - Projeto Price\\CSV'):
+for itemCSV in os.listdir('C:\\Dados'):
     path = os.path.join(dir, itemCSV)
 
     if 'Dados' in itemCSV.title():
